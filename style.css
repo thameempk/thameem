@@ -126,7 +126,7 @@ body{
     
 }
 #services{
-    background-image: url("./images/serve.jpg");
+    background-image: url(./images/serve.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
