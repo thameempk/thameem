@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'myfont';
-    src: url(/fonts/glyphicons-halflings-regular.ttf);
+    src: url(./fonts/glyphicons-halflings-regular.ttf);
 }
 body{
     
@@ -126,7 +126,7 @@ body{
     
 }
 #services{
-    background-image: url(/images/serve.jpg);
+    background-image: url(./images/serve.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -151,7 +151,7 @@ body{
     text-transform: lowercase;
 }
 #skillsright{
-    background-image: url(/images/banner.jpg);
+    background-image: url(./images/banner.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
     color: white;
