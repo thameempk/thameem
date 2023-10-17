@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url(/fonts/glyphicons-halflings-regular.ttf);
+}
+body{
+    
+    background-color: black;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 3px 3px black;
+}
+.navbar-brand::first-letter{
+    color: #2196F3;
+}
+.navbar-nav{
+    font-size: 15px;
+    transition: 2s border, 2s color;
+    font-family: 'Chivo', sans-serif;
+
+}
+.nav-link:hover{
+    color: rgb(10, 222, 230);
+    border-bottom: 2px solid rgb(10, 222, 230);
+}
+.nav-item:a{
+    background-color: white;
+    opacity: .7;
+    color: black;
+    border-radius: 10px;
+}
+#home{
+    margin-top: 50px;
+    background-color: black;
+}
+/* .left{
+    height: ;
+} */
+#left p{
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    font-weight: 200;
+    font-family:  'Anton', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 3px;
+}
+.sp{
+    color: #2196F3;
+}
+#left p::first-letter{
+    color: #2196F3;
+}
+#left h5{
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#right{
+    float: right;
+}
+#right img{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    /* border: 1px solid rgb(10, 207, 214); */
+    border-radius: 40px;
+    box-shadow: 0 0 30px 10px #48abe0;
+    
+}
+.head{
+    text-align: center;
+    color: #fff;
+    font-family:  'Chivo', sans-serif;
+    font-size: 30px;
+}
+#about{
+    background-color:rgba(17,24,42,255);
+    color: rgb(255, 255, 255);
+    height: auto;
+    /* height: 700px; */
+    margin-top: 150px;
+}
+#about hr{
+    border: 1px solid rgb(255, 254, 254);
+}
+#aboutleft img{
+    height: 400px;
+    width: 400px;
+    margin-top: 45px;
+    border-radius: 40px;
+    /* box-shadow: 0 0 30px 10px #48abe0; */
+    background-color: black;
+}
+/* #aboutright{
+    border: 1px black solid;
+
+} */
+#aboutright p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    
+}
+#aboutright h5{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+#services{
+    background-image: url(/images/serve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#services h4{
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+#skills{
+    width: 100%;
+}
+#skills h1{
+    font-family:  'Chivo', sans-serif;
+}
+#skills h6{
+    font-size: 13px;
+}
+#skills p{
+    font-size: 13px;
+}
+#email{
+    text-transform: lowercase;
+}
+#skillsright{
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+    min-height: 515px;
+    
+
+}
+#more{
+    width: 100%;
+    min-height: 400px;
+
+}
+#more h1{
+    font-family:  'Chivo', sans-serif;
+}
+.btn{
+    width: 70px;
+}
+#projects{
+    width: 100%;
+    background-color: rgb(204, 255, 255);
+    text-align: center;
+    min-height: 500px;
+}
+#projects h1{
+    font-family:  'Chivo', sans-serif;
+}
+#contact{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    /* border: #2196F3 solid 2px; */
+    box-shadow: 0 0 20px 6px #48abe0;
+}
+#contact h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+#services{
+    padding-top: 4em;
+    min-height: 515px;
+}
+.sleft{
+    margin-top: 2em;
+}
+.sleft p{
+    font-size: 0.9em;
+    color: #d2d6da;
+    line-height: 2em;
+}
+.sleft i{
+    font-size: 4em;
+    color: #fff;
+}
+.sleft h4{
+    font-size:2em;
+    margin: 0.5em 0;
+    color: #44c7f4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#logo{
+    margin-left: 30px;
+}
+.year{
+    height: 70px;
+    border-left: 5px solid #eb5424;
+}
+.html {width: 100%; background-color: #2196F3;;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 80%; background-color: #2196F3;}
+.bootstrap {width: 70%; background-color: #2196F3;}
+
+.skills {
+    text-align: right;
+    color: white;
+  }
+.stext{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.s{
+    margin-top: 100px;
+}
+.wrap{
+    margin-top: 70px;
+}
+.prj img{
+    width: 500px;
+    height: 300px;
+}
+.prj img:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.prj P{
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+#f1{
+    min-height: 300px;
+    margin: auto;
+    
+    
+}
+#f1 img{
+    border: 2px solid black;
+    margin-top: 100px;
+}
+#f2{
+    min-height: 300px;
+    margin: auto;
+}
+#f2 img{
+    border: 2px solid black;
+    margin-top: 100px;
+    
+}
+
+#moreright h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+} 
+#moreright p{
+    font-size: 13px;
+}
+.cont{
+    background-color: rgba(47,47,46,255);
+}
+.cont h4{
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+#cont p{
+    color: gray;
+}
+#cont i{
+    font-size: 2rem;
+}
+.fa-solid{
+    color: #2196F3;
+    transition: 1s color;
+}
+.fa-solid:hover{
+    color: rgb(10, 222, 230);
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transition: 2s color;
+}
+.fa-brands:hover{
+    color: #48abe0;
+}
